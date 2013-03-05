@@ -84,6 +84,7 @@ include_directories(
 # generate -l flags
 target_link_libraries(solarus
   solarus_static
+  ${CMAKE_DL_LIBS}
   ${SDL_LIBRARY}
   ${SDLIMAGE_LIBRARY}
   ${SDLTTF_LIBRARY}
