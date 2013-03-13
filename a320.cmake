@@ -1,4 +1,10 @@
 #cmake -DCMAKE_TOOLCHAIN_FILE=a320.cmake -DCMAKE_BUILD_TYPE=Release
+#make
+#mv solarus solarus.dge
+
+#LD_LIBRARY_PATH="./" ./solarus.dge
+
+SET (A320 True)
 
 SET (CMAKE_SYSTEM_NAME Linux)
 SET (CMAKE_SYSTEM_VERSION 1)
